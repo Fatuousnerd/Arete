@@ -3,7 +3,7 @@ import React from 'react'
 const Work = () => {
     return (
         <>
-            <div className='relative top-[70px] h-screen w-screen bg-[--MainTextColor] text-[--MainBgColor] pr-[60px] pl-[60px] p-[40px] flex flex-col items-center justify-around gap-[50px]'>
+            <div id='work' className='relative top-[70px] h-screen w-screen bg-[--MainTextColor] text-[--MainBgColor] pr-[60px] pl-[60px] p-[40px] flex flex-col items-center justify-around gap-[50px]'>
                 <h2 className='text-[4rem] font-semibold '>Our Working Process</h2>
                 <div className="flex text-center">
                     <div className="flex flex-col items-center gap-[20px]">

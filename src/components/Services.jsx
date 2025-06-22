@@ -3,7 +3,7 @@ import React from 'react'
 const Services = () => {
     return (
         <>
-            <div className='relative top-[70px] h-[120vh] w-screen bg-[--MainTextColor] text-[--MainBgColor] pr-[60px] pl-[60px] p-[40px] flex flex-col justify-between'>
+            <div id='services' className='relative top-[70px] h-[120vh] w-screen bg-[--MainTextColor] text-[--MainBgColor] pr-[60px] pl-[60px] p-[40px] flex flex-col justify-between'>
 
                 <div className="flex flex-col">
                     <h2 className='font-bold text-[4rem]'>Our Services</h2>

@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 const About = () => {
     return (
         <>
-            <div className='relative top-[70px] h-screen w-screen flex pr-[60px] pl-[60px] p-[40px] gap-[50px] items-center justify-between'>
+            <div id='about' className='relative top-[70px] h-screen w-screen flex pr-[60px] pl-[60px] p-[40px] gap-[50px] items-center justify-between'>
                 <div className="flex flex-[1]">
                     <img src="./Logo.png" alt="" className='w-full object-cover rounded-lg'/>
                 </div>

@@ -8,10 +8,12 @@ import Footer from './Footer'
 import Contact from './Contact'
 import Services from './Services'
 import Portfolio from './Portfolio'
+import ScrollToSection from '../ScrollToSection'
 
 const Main = () => {
   return (
     <>
+      <ScrollToSection />
       <Navbar />
       <Hero />
       <Marq />

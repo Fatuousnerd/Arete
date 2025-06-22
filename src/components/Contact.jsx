@@ -5,7 +5,7 @@ import { Facebook, Instagram, LinkedIn, Reddit, X } from '@mui/icons-material'
 const Contact = () => {
     return (
         <>
-            <div className='relative top-[70px] w-screen h-screen flex items-center pr-[60px] pl-[60px] p-[40px] gap-[50px]'>
+            <div id='contact' className='relative top-[70px] w-screen h-screen flex items-center pr-[60px] pl-[60px] p-[40px] gap-[50px]'>
                 <div className="flex flex-col flex-[2]">
                     <h2 className='font-bold text-[3.5rem]'>Contact Us</h2>
                     <form action="" className='flex flex-col gap-[25px] items-start h-full'>
