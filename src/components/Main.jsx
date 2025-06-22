@@ -7,6 +7,7 @@ import Work from './Work'
 import Footer from './Footer'
 import Contact from './Contact'
 import Services from './Services'
+import Portfolio from './Portfolio'
 
 const Main = () => {
   return (
@@ -15,8 +16,11 @@ const Main = () => {
       <Hero />
       <Marq />
       <Services />
-      <About />
+      <Marq />
+      <Portfolio />
+      <Marq />
       <Work />
+      <About />
       <Marq />
       <Contact />
       <Footer />
