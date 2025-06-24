@@ -10,19 +10,19 @@ const About = () => {
                     <img src="./pic6.jpg" alt="" className='w-full object-cover rounded-lg' />
                 </div>
                 <div className="flex flex-col gap-[25px] items-start justify-between h-full flex-[1]">
-                    <h2 className='font-semibold text-[3rem] capitalize'>We're <span>awards winning</span> digital agency</h2>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste iure odit quae magni ut! Quaerat, facere dolor, at impedit atque, eaque iusto.</p>
+                    <h2 className='font-extrabold text-[3rem] capitalize'>Funnels <span>Built for Coaches</span> Who <span>Actually Sell</span></h2>
+                    <p>We help health & fitness coaches turn their best offers into high-converting sales pages - built on commission. No fluff, no upfront fees, no "agency" drama. Just clean design, smart funnels, and results that speak.</p>
                     <div className="flex items-center gap-[20px]">
                         <CheckCircleOutline />
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                        <p>Built 100% for client conversion</p>
                     </div>
                     <div className="flex items-center gap-[20px]">
                         <CheckCircleOutline />
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                        <p>Mobile-optimized and brand-matching.</p>
                     </div>
                     <div className="flex items-center gap-[20px]">
                         <CheckCircleOutline />
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                        <p>Intergrated with your calendar or CRM.</p>
                     </div>
                     <div className="flex bg-[--MainTextColor] rounded-[50px] gap-[20px]">
                         <Link to="/form" className='bg-[--HTextColor] p-[10px] rounded-[50px] flex items-center justify-center'>Get Started</Link>
