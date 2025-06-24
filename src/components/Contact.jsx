@@ -16,9 +16,9 @@ const Contact = () => {
                     </form>
                 </div>
                 <div className="flex flex-col items-start justify-center gap-[50px] flex-1 bg-[--HTextColor] rounded-lg text-[--MainBgColor] p-[25px] h-[400px]">
-                        <Link className="flex items-center gap-[25px] font-normal text-xl"><Instagram style={{fontSize:"2.5rem"}}/> @areteco</Link>
-                        <Link className="flex items-center gap-[25px] font-normal text-xl"><Reddit style={{fontSize:"2.5rem"}}/> @areteco</Link>
-                        <Link className="flex items-center gap-[25px] font-normal text-xl"><LinkedIn style={{fontSize:"2.5rem"}}/> @areteco</Link>
+                        <Link to="https://instagram.com/arete.co.agency" className="flex items-center gap-[25px] font-normal text-xl"><Instagram style={{fontSize:"2.5rem"}}/> @arete.co.agency</Link>
+                        <Link to="https://www.reddit.com/user/kanvasweb/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button" className="flex items-center gap-[25px] font-normal text-xl"><Reddit style={{fontSize:"2.5rem"}}/> @areteco</Link>
+                        <Link to="" className="flex items-center gap-[25px] font-normal text-xl"><LinkedIn style={{fontSize:"2.5rem"}}/> @Arete Co</Link>
                 </div>
             </div>
         </>

@@ -5,7 +5,7 @@ const Hero = () => {
         <>
             <div className='lg:h-[calc(100vh-70px)] w-screen relative top-[70px] flex flex-col lg:pl-[60px] lg:pr-[60px] p-[20px]'>
 
-                <h1 className=' flex-[1] text-[3rem] lg:text-[5rem] font-extrabold capitalize text-center'>Where innovation meets <br /> <span>digital excellence</span></h1>
+                <h1 className=' flex-[1] text-[3rem] lg:text-[5rem] font-extrabold capitalize pl-[15px] lg:p-0 lg:text-center'>Where innovation meets <br /> <span>digital excellence</span></h1>
 
                 <div className="flex flex-col lg:flex-row flex-[2] gap-[25px] p-3">
                     <img src="./pic3.jpg" alt="" className='flex-[4] object-cover rounded-lg h-[40vh]' />

@@ -25,8 +25,8 @@ const About = () => {
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
                     </div>
                     <div className="flex bg-[--MainTextColor] rounded-[50px] gap-[20px]">
-                        <Link className='bg-[--HTextColor] p-[10px] rounded-[50px] flex items-center justify-center'>Learn More</Link>
-                        <Link className='bg-[--MainBgColor] p-[10px] rounded-[50%] flex items-center justify-center'><ArrowForward/></Link>
+                        <Link to="/form" className='bg-[--HTextColor] p-[10px] rounded-[50px] flex items-center justify-center'>Get Started</Link>
+                        <Link to="/form" className='bg-[--MainBgColor] p-[10px] rounded-[50%] flex items-center justify-center'><ArrowForward/></Link>
                     </div>
                 </div>
             </div>
