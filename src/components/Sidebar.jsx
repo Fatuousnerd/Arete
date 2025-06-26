@@ -17,7 +17,7 @@ const Sidebar = () => {
                     <Link to="#about" className='hover:text-[--HTextColor]'>About</Link>
                     {/* <Link to="#" className='hover:text-[--HTextColor]'>Work</Link> */}
                     <Link to="#contact" className='hover:text-[--HTextColor]'>Contact</Link>
-                    <Link to="/form" className='p-[05px] bg-[--HTextColor] rounded-md font-bold text-3xl flex items-center justify-center uppercase hover:scale-[1.02]'>Join Now</Link>
+                    <Link to="/form" className='p-[05px] bg-[--HTextColor] rounded-md font-bold text-3xl flex items-center justify-center uppercase hover:scale-[1.02]'>Get Started</Link>
                 </div>
             }
         </>

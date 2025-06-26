@@ -14,7 +14,7 @@ const Navbar = () => {
                     {/* <Link to="#" className='hover:text-[--HTextColor]'>Work</Link> */}
                     <Link to="#contact" className='hover:text-[--HTextColor]'>Contact</Link>
                 </div>
-                <Link to="/form" className='p-[10px] bg-[--HTextColor] rounded-md font-bold uppercase hover:scale-[1.02]'>Join Now</Link>
+                <Link to="/form" className='p-[10px] bg-[--HTextColor] rounded-md font-bold uppercase hover:scale-[1.02]'>Get Started</Link>
             </div>
         </>
     )
