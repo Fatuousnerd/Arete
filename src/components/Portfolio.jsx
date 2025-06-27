@@ -4,7 +4,7 @@ import { ArrowOutward } from '@mui/icons-material';
 const Ports = [
     {
         id: 1,
-        img: "/pic1.jpg",
+        img: "/Ares.png",
         name: "Ares",
         title: "Ares | Lead Capture",
         desc: "Let your funnel work while you train. Ares' lead capture system helps coaches collect emails, build trust, and nurture prospects - without needing to DM everyone manually.",
@@ -34,13 +34,13 @@ const Portfolio = () => {
     return (
         <>
             <div id='portfolio' className='relative top-[70px] min-h-screen w-screen flex flex-col items-center justify-around p-[50px] '>
-                <div className="flex flex-col lg:flex-row w-full justify-between items-center ">
+                <div className="flex flex-col lg:flex-row gap-4 lg:gap-0 w-full justify-between items-center ">
                     <h2 className='text-[4rem] leading-[4rem] lg:text-[5rem] font-black'>Our <span>Portfolio</span></h2>
                     <Link to="https://demo.areteco.agency/" className='text-[--MainTextColor] text-xl font-bold underline flex items-center justify-center gap-[10px] hover:text-[--SecTextColor] transition duration-300 '>See all <ArrowOutward /></Link>
                 </div>
                 <div className="flex w-screen flex-wrap gap-[25px] items-center justify-start md:justify-center relative p-[25px] lg:p-[50px]">
                     {Ports.map((port) => (
-                        <div className="flex flex-col items-start justify-between w-[375px] h-[475px] bg-[--SecBgColor] text-[--MainTextColor] bg-opacity-75 backdrop-blur-3xl rounded-[20px] shadow-lg p-3 pb-4" key={port.id}>
+                        <div className="flex flex-col items-start justify-between w-[375px] h-[500px] bg-[--SecBgColor] text-[--MainTextColor] bg-opacity-75 backdrop-blur-3xl rounded-[20px] shadow-lg p-3 pb-4" key={port.id}>
                             <img src={port.img} alt="" className='h-[200px] w-full object-cover rounded-[10px] mb-4 ' />
                             <div className="flex flex-col justify-between h-full w-full">
                                 <div className="flex flex-col">
