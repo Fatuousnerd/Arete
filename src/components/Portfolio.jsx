@@ -34,7 +34,7 @@ const Portfolio = () => {
     return (
         <>
             <div id='portfolio' className='relative top-[70px] min-h-screen w-screen flex flex-col items-center justify-around p-[50px] '>
-                <div className="flex flex-col lg:flex-row gap-4 lg:gap-0 w-full justify-between items-center ">
+                <div className="flex flex-col lg:flex-row gap-4 lg:gap-0 w-full justify-between items-start lg:items-center ">
                     <h2 className='text-[4rem] leading-[4rem] lg:text-[5rem] font-black'>Our <span>Portfolio</span></h2>
                     <Link to="https://portfolio.areteco.agency/" className='text-[--MainTextColor] text-xl font-bold underline flex items-center justify-center gap-[10px] hover:text-[--SecTextColor] transition duration-300 '>See all <ArrowOutward /></Link>
                 </div>
